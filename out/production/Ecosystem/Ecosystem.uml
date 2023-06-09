@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/paske/Desktop/Programavimas/Java/Ecosystem</OriginalElement>
+  <nodes>
+    <node x="372.0" y="206.0">ecosystem.Animal.Fleeable</node>
+    <node x="195.0" y="870.0">ecosystem.Animal.AnimalStats</node>
+    <node x="140.0" y="667.0">ecosystem.Animal.AnimalException</node>
+    <node x="69.375" y="423.0">ecosystem.Animal.Wolf</node>
+    <node x="0.0" y="870.0">ecosystem.Main.GUI</node>
+    <node x="264.375" y="412.0">ecosystem.Animal.Rabbit</node>
+    <node x="240.0" y="771.0">ecosystem.Animal.AnimalNotFoundException</node>
+    <node x="559.0" y="0.0">ecosystem.Main.Ecosystem</node>
+    <node x="200.25" y="0.0">ecosystem.Animal.Moveable</node>
+    <node x="165.0" y="104.0">ecosystem.Animal.Animal</node>
+    <node x="0.0" y="771.0">ecosystem.Animal.InvalidTargetException</node>
+    <node x="507.0" y="667.0">ecosystem.Factory.AnimalFactory</node>
+    <node x="837.0" y="667.0">ecosystem.Plant.Carrot</node>
+    <node x="0.0" y="206.0">ecosystem.Animal.Huntable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ecosystem.Animal.Huntable" target="ecosystem.Animal.Moveable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="72.5" y="79.0" />
+      <point x="257.75" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ecosystem.Animal.InvalidTargetException" target="ecosystem.Animal.AnimalException" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="110.0" y="746.0" />
+      <point x="230.5" y="746.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ecosystem.Animal.Wolf" target="ecosystem.Animal.Animal" relationship="GENERALIZATION">
+      <point x="43.75" y="-94.0" />
+      <point x="200.625" y="387.0" />
+      <point x="258.5" y="387.0" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="ecosystem.Animal.Rabbit" target="ecosystem.Animal.Animal" relationship="GENERALIZATION">
+      <point x="-46.0" y="-105.0" />
+      <point x="310.375" y="387.0" />
+      <point x="258.5" y="387.0" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="ecosystem.Animal.Fleeable" target="ecosystem.Animal.Moveable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="443.0" y="79.0" />
+      <point x="257.75" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ecosystem.Animal.Wolf" target="ecosystem.Animal.Huntable" relationship="REALIZATION">
+      <point x="-43.75" y="-94.0" />
+      <point x="113.125" y="387.0" />
+      <point x="72.5" y="387.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ecosystem.Animal.AnimalNotFoundException" target="ecosystem.Animal.AnimalException" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="351.0" y="746.0" />
+      <point x="230.5" y="746.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ecosystem.Animal.Rabbit" target="ecosystem.Animal.Fleeable" relationship="REALIZATION">
+      <point x="46.0" y="-105.0" />
+      <point x="402.375" y="387.0" />
+      <point x="443.0" y="387.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5611570247933884" showDependencies="false" x="228.14147767265263" y="667.6244477172313" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
